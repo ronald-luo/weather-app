@@ -79,17 +79,35 @@ ul li a {
     z-index: -1;
 }
 
+<<<<<<< HEAD
 
+=======
+.search{
+    margin:7px;
+}
+
+.search input[type=text]{
+    width:500px;
+    height:35px;
+    border-radius: 100px;
+    border-color: #f2f2f2;
+    border-width: 0.5px;
+    outline: none;
+    text-indent: 55px;
+    font-size: 17px;
+}
+>>>>>>> dcb0a9ece9c0e01e1de6b37e7c54d825d223a7dc
 
 footer {
     position: absolute;
     right: 5em;
     bottom: 3em;
+<<<<<<< HEAD
 }
 
 .round {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 17px;
     border: 1px #000 solid;
     padding: 5px 5px 5px 25px;
     position: absolute;
@@ -114,4 +132,6 @@ footer {
     position: relative;
     width: 190px;
     height: 30px;
+=======
+>>>>>>> dcb0a9ece9c0e01e1de6b37e7c54d825d223a7dc
 }
