@@ -79,6 +79,22 @@ ul li a {
     z-index: -1;
 }
 
+
+.search{
+    margin:7px;
+}
+
+.search input[type=text]{
+    width:500px;
+    height:35px;
+    border-radius: 100px;
+    border-color: #f2f2f2;
+    border-width: 0.5px;
+    outline: none;
+    text-indent: 55px;
+    font-size: 17px;
+}
+
 footer {
     position: absolute;
     right: 5em;
@@ -87,7 +103,7 @@ footer {
 
 .round {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 17px;
     border: 1px #000 solid;
     padding: 5px 5px 5px 25px;
     position: absolute;
