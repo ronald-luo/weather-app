@@ -8,42 +8,42 @@
     <link rel="stylesheet" href="style.css">
     <title>Weather App</title>
     <script src="https://kit.fontawesome.com/177ccfea91.js" crossorigin="anonymous"></script>
-
+    <script src="./script.js"></script>
 </head>
 
 <body>
-    <div class="navbar">
-
+    <nav>
         <ul class="primary-nav">
-            <h1 class="title">weather</h1>
-            <form id="search-form">
-                <div class="search">
-                    <input type="text" name="search" class="round" />
-                    <input type="submit" class="corner" value="" />
-                </div>
+            <li>
+                <h1 class="title"><a href="#">weather</a></h1>
+            </li>
+
+            <li>
+                <form>
+                    <input class="search" type="text" placeholder="Toronto, Canada" name="search">
+
+                    <button>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </li>
+
+            <span class="right">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Github</a></li>
+            </span>
         </ul>
-
-        <form>
-            <input type="text" placeholder="Taiwan" name="search">
-            <button>
-                <i class="fas fa-search"></i>
-            </button>
-        </form>
-    </div>
+    </nav>
 
 
-    <ul class="secondary-nav">
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Github</a></li>
-    </ul>
-
-
-    <div class="container">
+    <div class="weather-container">
         <h1>25°C</h1>
 
-        <p class="info">Feels like: 30°C</p>
-        <p class="info">Wind: 5m/s</p>
-        <p class="info">Humidity: 30%</p>
+        <div class="weather-info">
+            <p class="info">Feels like: 30°C</p>
+            <p class="info">Wind: 5m/s</p>
+            <p class="info">Humidity: 30%</p>
+        </div>
     </div>
 
     <footer>
