@@ -69,12 +69,23 @@ ul > li {
     text-align: center;
 }
 
+.weather-container h2 {
+    display: block;
+    position: absolute;
+    margin-right: 400px;
+    margin-bottom: 400px;
+
+}
+
 .weather-container h1 {
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 90px;
+    font-size: 85px;
 }
 
+.weather-container p {
+    font-size: 23px;
+}
 
 .weather-container::before {
     background: rgba(0, 0, 0, 0.5);

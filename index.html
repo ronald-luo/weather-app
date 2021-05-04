@@ -20,9 +20,9 @@
 
             <li>
                 <form>
-                    <input class="search" type="text" placeholder="Toronto, Canada" name="search">
+                    <input class="search" type="text" placeholder="Toronto, Canada" name="search" id="user-search">
 
-                    <button>
+                    <button id="btn">
                         <i class="fas fa-search"></i>
                     </button>
                 </form>
@@ -37,17 +37,18 @@
 
 
     <div class="weather-container">
-        <h1>25°C</h1>
+        <h2 id="location">Toronto</h2>
+        <h1 id="temperature">25°C</h1>
 
         <div class="weather-info">
-            <p class="info">Feels like: 30°C</p>
-            <p class="info">Wind: 5m/s</p>
-            <p class="info">Humidity: 30%</p>
+            <p class="info" id="description">DESCRIPTION</p>
+            <p class="info" id="feels">FEELS LIKE</p>
+            <p class="info" id="wind">WIND SPEED</p>
         </div>
     </div>
 
     <footer>
-        <p>illustrated by Ron 2021</p>
+        <p>illustrated and built 2021</p>
     </footer>
 
 </body>
