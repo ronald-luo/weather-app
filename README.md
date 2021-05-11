@@ -1,4 +1,4 @@
-# weather-app
+# weather-app created as part of The Odin Project curriculum
 
 check out the website [here](https://ronald-luo.github.io/weather-app/)
 
